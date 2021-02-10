@@ -2,7 +2,7 @@ import normalize from '../utils/normalize';
 
 export default {
   border: {
-    radius: 4
+    radius: 4,
   },
   font: {
     // family:
@@ -16,8 +16,8 @@ export default {
       medium: `${normalize(16)}px`,
       large: `${normalize(18)}px`,
       xlarge: `${normalize(20)}px`,
-      xxlarge: `${normalize(28)}px`
-    }
+      xxlarge: `${normalize(28)}px`,
+    },
   },
   colors: {
     primary: '#F231A5',
@@ -27,7 +27,7 @@ export default {
     black: '#030517',
     lightGray: '#EAEAEA',
     gray: '#8F8F8F',
-    darkGray: '#2E2F42'
+    darkGray: '#2E2F42',
   },
   spacings: {
     xxsmall: 8,
@@ -36,6 +36,6 @@ export default {
     medium: 32,
     large: 40,
     xlarge: 48,
-    xxlarge: 56
-  }
+    xxlarge: 56,
+  },
 };
