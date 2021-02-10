@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import useLocalStorage from '../services/storage';
+import useLocalStorage from 'services/storage';
 
 export default function useAuthentication() {
   const { currentValue, setCurrentValue } = useLocalStorage('auth-token');
