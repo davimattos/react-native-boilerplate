@@ -5,6 +5,8 @@ import theme from '../styles/theme';
 
 import Routes from './Routes';
 
+import '../config/ReactotronConfig';
+
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
