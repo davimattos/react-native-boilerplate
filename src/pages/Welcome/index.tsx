@@ -1,10 +1,11 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+
+import * as S from './styles';
 
 export default function Welcome() {
   return (
-    <View>
-      <Text>Welcome to Boilerplate</Text>
-    </View>
+    <S.Wrapper>
+      <S.Message>Welcome to Boilerplate</S.Message>
+    </S.Wrapper>
   );
 }
