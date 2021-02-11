@@ -9,7 +9,7 @@ export const Wrapper = styled.SafeAreaView<SafeAreaViewProps>`
 `;
 
 export const Message = styled.Text<TextProps>`
-  font-size: ${({ theme }) => theme.font.sizes.xlarge};
+  font-size: ${({ theme }) => theme.font.sizes.xlarge}px;
   font-weight: ${({ theme }) => theme.font.light};
   color: ${({ theme }) => theme.colors.black};
 `;
