@@ -1,0 +1,10 @@
+import React from 'react';
+import { renderWithTheme } from '../../utils/tests/helpers';
+import 'jest-styled-components';
+
+import {{pascalCase name}} from '.';
+
+test('<{{pascalCase name}} />', () => {
+  const { toJSON } = renderWithTheme(<{{pascalCase name}} />);
+  expect(toJSON).toMatchSnapshot();
+});
