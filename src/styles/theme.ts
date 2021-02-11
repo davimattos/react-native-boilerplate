@@ -1,5 +1,3 @@
-import normalize from 'utils/normalize';
-
 export default {
   border: {
     radius: 4,
@@ -11,12 +9,12 @@ export default {
     normal: 400,
     bold: 600,
     sizes: {
-      xsmall: `${normalize(12)}px`,
-      small: `${normalize(14)}px`,
-      medium: `${normalize(16)}px`,
-      large: `${normalize(18)}px`,
-      xlarge: `${normalize(20)}px`,
-      xxlarge: `${normalize(28)}px`,
+      xsmall: 12,
+      small: 14,
+      medium: 16,
+      large: 18,
+      xlarge: 20,
+      xxlarge: 28,
     },
   },
   colors: {
